@@ -1,0 +1,96 @@
+*** Resort Changelog ***
+
+2014.09.24 - version 1.1.1
+ * Fix - Multiple variations don't display correctly in cart.
+   css/woocommerce.css
+
+2014.05.29 - version 1.1.0
+ * Update - Adds Projects, and Our Team integration
+   functions.php,
+   /includes/theme-plugin-integrations.php,
+   /includes/integrations/*
+   css/mixins.css,
+   css/layout.css,
+   style.css
+
+ * Tweak - Updated Testimonials plugin styling
+   css/layout.css,
+   includes/theme-actions.php
+
+2014.05.22 - version 1.0.16
+ * Fix - Adds styling to links in the footer widgets.
+   style.css
+
+2014.04.02 - version 1.0.15
+ * New - WPML Compatibility
+   wpml-config.xml
+
+2014.03.20 - version 1.0.14
+ * Tweak - Removes Twitter from Contact page.
+   includes/theme-options.php
+   template-contact.php
+   style.css
+
+ * Fix - Fixes Subscribe & Connect section not displaying on the Contact Template.
+   template-contact.php
+
+2013.12.27 - version 1.0.13
+ * Fix - Fixes single product sidebar not showing.
+   includes/theme-woocommerce.php
+
+2013.12.17 - version 1.0.12
+ * Tweak - WooCommerce 2.1 Compatibility
+   css/woocommerce.css
+ * Fix - Navigation settings in Typograhy section
+   includes/theme-actions.php
+
+2013.11.27 - version 1.0.11
+ * includes/theme-woocommerce.php - Fixes full width product archives option in Tag Archives.
+
+2013.09.09 - version 1.0.10
+ * includes/theme-woocommerce.php - Make WooCommerce style disabling 2.1 compatible
+ * content-testimonial.php - Use featured image as avatar image.
+ * includes/js/featured-slider.js - Fixed "Pause on Hover" setting.
+ * includes/theme-js.php - Fixed "Pause on Hover" setting.
+ * styles/*.css - Fixed telehpone icon positioning.
+ * includes/js/third-party.js - Updated FitVids with more selectors.
+ * css/woocommerce.css - Review Stars Issues on FF.
+
+2013.07.27 - version 1.0.9
+ * css/woocommerce.css - Store notice styling. Fix shortcode styling.
+
+2013.07.01 - version 1.0.8
+ * css/layout.css - Fixed empty space left by top bar between 768 - 1024 screen width.
+
+2013.06.26 - version 1.0.7
+ * css/layout.css - Tweaked home gallery size in iPad.
+ * css/woocommerce.css - Responsive WooCommerce Cart.
+
+2013.06.24 - version 1.0.6
+ * style.css - Fixed squashed images in IE8 & fixed gallery thumb issue in Firefox.
+ * css/woocommerce.css - Fixed "Sort By" dropdown.
+ * includes/theme-functions.php - Added lightbox next/prev to galleries.
+ * includes/theme-actions.php - Fixed bug with Typography options not being added to the site.
+ * css/layout.css - Removed right margin from last feature in Features widget.
+
+2013.05.13 - version 1.0.5
+ * style.css - Added fix to prevent navigation from jumping around due to typography settings.
+
+2013.05.09 - version 1.0.4
+ * css/woocommerce.css - Fixed Star Rating in Chrome Windows, replaced with FontAwesome.
+
+2013.05.01 - version 1.0.3
+ * includes/featured-slider.php - Added 'flex-active-slide' class to slider when there's only one slide.
+ * css/woocommerce.css - Fixed Star Rating positioning in Safari.
+ * style.css - Reduced padding on table cells in mobile mode.
+ * css/layout.css - Reduced padding on table cells in mobile mode.
+
+2013.04.29 - version 1.0.2
+ * css/layout.css - Fixed issue that caused the social buttons to go out of alignment when "Custom Typography" is enabled & fixed buttons on top of the slider.
+ * style.css - Fixed issue that caused the social buttons to go out of alignment when "Custom Typography" is enabled & fixed buttons on top of the slider.
+
+2013.04.17 - version 1.0.1
+ * css/layout.css - Added "polaroid" look to the homepage gallery images & fixed slider arrows positioning.
+
+2013.04.16 - version 1.0.0
+ * First release!
