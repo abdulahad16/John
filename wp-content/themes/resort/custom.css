@@ -370,6 +370,24 @@ hgroup {
 ul.products li.product {
   width: 44%;
 }
+#footer-wrapper {
+  background: none repeat scroll 0 0 #aeb937;
+  box-shadow: 0 0 5px 0 #cccccc;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0;
+}
+#footer {
+  margin: 0 auto;
+  max-width: 98%;
+  padding: 0.5em 1em;
+}
+#footer ul.nav {
+  margin: 0;
+}
+#footer a {
+  color: #e4e4e4 !important;
+}
 
 
 }

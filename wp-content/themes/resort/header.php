@@ -10,7 +10,11 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  */
  
  global $woo_options, $woocommerce;
- 
+ if ( is_user_logged_in() ) { ?> <style type="text/css">.register{display: none;}.myaccount{display: block;}</style>
+ <?php }else{ ?>
+<style type="text/css">.register{display: block;}.myaccount{display: none;}</style>
+ <?php
+ } 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
