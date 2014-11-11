@@ -63,17 +63,15 @@ ul.nav ul {
   background: none;
   border-bottom: medium none;
   float: right;
-  padding: 0 1.618em;
   position: inherit;
-  width: 55%;
-
+  width: 37em;
 }
 .has-top-menu #header {
   margin-top: 0;
 }
 #searchform {
   float: right;
-  width: 30%;
+  width: 32%;
 }
 #searchform .s, #searchform #s {
   padding: 0.23em;
@@ -166,7 +164,75 @@ ul.nav ul {
 mark {
   display: none;
 }
-#woocommerce_widget_cart-2 {
+#top .widget.widget_currency_converter,#top .widget.widget_nw_ajax_drop_cart {
+  background: none;
+  box-shadow: none;
+  float: left;
+  margin: 0 !important;
+  overflow: visible;
+  padding: 0 !important;
+  width: auto;
+}
+#top nav.col-full {
+  float: left;
+  margin: 0;
+  width: auto;
+}
+#top .inner {
+  margin: 0 !important;
+  overflow: visible;
+  padding: 0 !important;
+}
+#top .inner > h3,#top .nw-cart-title > h3 {
+  border: medium none;
+  float: left;
+  font-size: 1em;
+  margin: 5px 3px 0 5px;
+  padding: 0 !important;
+  width: auto;
+}
+#top .inner > form {
+  float: left;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto;
+}
+#top select {
+  margin: 0;
+  width: 100%;
+}
+#top .nw-cart-title {
   display: none;
+}
+#top .nw-cart-container {
+  clear: both;
+  left: 5px;
+  position: absolute;
+}
+#top .nw-cart-icns-shape {
+  height: 20px;
+  position: inherit;
+  width: 20px;
+  z-index: 99;
+}
+#top #nw-cart-drop-toggle {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  border-radius: 0;
+  color: #000000;
+}
+#top #nw-cart-contents {
+  display: none;
+  float: right;
+}
+#top #nw-cart-drop-content {
+  border-radius: 4px;
+  min-width: 210px;
+  overflow: hidden;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 26px;
+  z-index: 999;
 }
 }

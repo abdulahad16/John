@@ -16,7 +16,7 @@
 
 .nw-hidden { display:none;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity: 0; }
 
-.nw-cart-container { clear:both;position: absolute;right:0px; }
+.nw-cart-container { clear:both;position: absolute;left:0px; }/*change the "right" to "left" */
 
 .nw-cart-container.nw-cart-side { right:auto;left:0px; }
 .nw-cart-container.nw-cart-side #nw-cart-drop-toggle { float:left; }
