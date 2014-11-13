@@ -72,7 +72,7 @@ INDEX
   }
 }
 /*----------------------*/
-/*@media only screen and (min-width: 769px) {*/
+@media only screen and (min-width: 769px) {
   /* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
   ul.nav {
     position: relative;
@@ -310,9 +310,9 @@ INDEX
   #main.fullwidth,
   .layout-full #main,
   .col-full {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
-
+    width: 100%;
   }
   #content {
     margin: 0 auto;
@@ -755,7 +755,7 @@ INDEX
   table thead th {
     padding: 1.387em;
   }
-/*}
+}
 @media all and (max-width: 1025px) {
   .widget .star-rating {
     margin-top: 1.618em;
@@ -937,4 +937,3 @@ INDEX
 .entry .widget_woothemes_testimonials .columns-6 .quote {
   width: 13.5%;
 }
-*/

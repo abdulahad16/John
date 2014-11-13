@@ -234,11 +234,11 @@ p.stars a.star-5:after {
   overflow: hidden;
   clear: both;
 }
-/*@media all and (max-width: 1025px) {
+@media all and (max-width: 1025px) {
   .widget .star-rating {
     margin-top: 1.618em;
   }
-}*/
+}
 .widget_layered_nav ul {
   list-style: none;
 }
@@ -1221,7 +1221,7 @@ table.cart .variation p {
 .woocommerce-page h1.page-title a:visited {
   color: #4b4b4b;
 }
-/*@media only screen and (min-width: 769px) {*/
+@media only screen and (min-width: 769px) {
   #header .widget_product_search {
     float: right;
     clear: none;
@@ -1468,7 +1468,7 @@ table.cart .variation p {
     margin-left: auto;
     margin-right: auto;
   }
-/*}*/
+}
 .pp_woocommerce #respond-outer {
   box-shadow: 0 0 0 0 #888888;
   -webkit-box-shadow: 0 0 0 0 #888888;
@@ -1489,7 +1489,7 @@ table.cart .variation p {
   float: left;
 }
 /* iPad Portrait & Landscape */
-/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .related ul.products li.product .button {
     font-size: 80%;
   }
@@ -1498,4 +1498,4 @@ table.cart .variation p {
   .related ul.products li.product .button {
     font-size: 60%;
   }
-}*/
+}

@@ -362,7 +362,7 @@ body {
   line-height: 1.618;
   background: #f2f1ec;
   color: #8b8b8b;
-  font-family: "Lato",sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   padding: 0;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -3077,14 +3077,14 @@ h3.archive_year {
 .page-template-template-sitemap-php #main .page ol ol {
   margin-left: 20px;
 }
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .page-template-template-archives-php #main .fl,
   .page-template-template-sitemap-php #main .fl,
   .page-template-template-archives-php #main .fr,
   .page-template-template-sitemap-php #main .fr {
     float: none!important;
   }
-}*/
+}
 /*-------------------------------------------------------------------------------------------*/
 /* 7. FEATURED SLIDER */
 /*-------------------------------------------------------------------------------------------*/
@@ -3272,7 +3272,7 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
-/*@media screen and (max-width: 860px) {
+@media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 0;
@@ -3281,7 +3281,7 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     right: 0;
   }
-}*/
+}
 /* 7.3 Content Styles */
 .flexslider .slide-content {
   float: left;
